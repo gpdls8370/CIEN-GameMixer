@@ -1895,7 +1895,7 @@ MonoBehaviour:
   howManyStage: 4
   typeBlock:
   - {fileID: 1765108701677599397, guid: a12f55a39b9ce1e40bcea90010e84ff9, type: 3}
-  - {fileID: 1166993155839211282, guid: 8e39ebc7b7e843448b2572eaf560ba33, type: 3}
+  - {fileID: 5878905439079791036, guid: 84cd90ec3c302974abb0684d0f98a34c, type: 3}
   - {fileID: 9078728313375942575, guid: 77de2f69d20703b4f84e05b0e70047f5, type: 3}
   - {fileID: 4112092507604542561, guid: 1f3a1d59ef2bc3e4bb3aed86a0686183, type: 3}
   - {fileID: 918662362746297932, guid: e9e930cc6707fa647b1262e2299d5de4, type: 3}
@@ -1905,7 +1905,7 @@ MonoBehaviour:
   - {fileID: 5604057094442233590, guid: d107b16847db71744bd538a52bad5f6c, type: 3}
   initialBrickSpawnPosX: -3.1
   initialBrickSpawnPosY: 4.4
-  bricksDistanceX: 0.65
+  bricksDistanceX: 0.7
   bricksDistanceY: 0.7
   nowFallTime: 0
 --- !u!1 &1044574454

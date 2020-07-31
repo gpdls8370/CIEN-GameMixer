@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BallDisappearAni
+  m_Name: HammerOpenAnimation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,19 +20,23 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 97e771c3aceb87e4d8e0240b65b34bb9, type: 3}
+      value: {fileID: 21300000, guid: 8324977fd9b7fd6419ade0ff1172bc46, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300000, guid: 13082a7112e9f4c4b85bfaf33e4bc07f, type: 3}
+      value: {fileID: 21300000, guid: c2c4abf996ef0a7488e6643be2aaa42b, type: 3}
     - time: 0.16666667
-      value: {fileID: 21300000, guid: 6a6afcb4f2457964491154bc9c39cbf4, type: 3}
+      value: {fileID: 21300000, guid: 6ae7a0224a48b2f4e88b8436f0331f2c, type: 3}
     - time: 0.25
-      value: {fileID: 21300000, guid: 7683a25dc42e3dc4a9d625993a91fcf4, type: 3}
+      value: {fileID: 21300000, guid: 1c3005423ad08724eac64ca8529a9868, type: 3}
     - time: 0.33333334
-      value: {fileID: 21300000, guid: 928a3917423b1624b83f4ee7d13f8c22, type: 3}
+      value: {fileID: 21300000, guid: 05e764ffe70fed84b8e270f4e8136e51, type: 3}
     - time: 0.41666666
-      value: {fileID: 21300000, guid: efbd8bb26a49a71419327333063b3bf7, type: 3}
+      value: {fileID: 21300000, guid: d18b039ca51cd2c489922a6b58667e8a, type: 3}
     - time: 0.5
-      value: {fileID: 21300000, guid: 2a661c5baf90b8c4882b8022d54fa5fb, type: 3}
+      value: {fileID: 21300000, guid: e79abc7d180bafe4bae959e740a14928, type: 3}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: 3247614798531a04faad9f6125dad4da, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: f96e07c1895df2b49ab69fa7e99cba7d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,19 +56,21 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 97e771c3aceb87e4d8e0240b65b34bb9, type: 3}
-    - {fileID: 21300000, guid: 13082a7112e9f4c4b85bfaf33e4bc07f, type: 3}
-    - {fileID: 21300000, guid: 6a6afcb4f2457964491154bc9c39cbf4, type: 3}
-    - {fileID: 21300000, guid: 7683a25dc42e3dc4a9d625993a91fcf4, type: 3}
-    - {fileID: 21300000, guid: 928a3917423b1624b83f4ee7d13f8c22, type: 3}
-    - {fileID: 21300000, guid: efbd8bb26a49a71419327333063b3bf7, type: 3}
-    - {fileID: 21300000, guid: 2a661c5baf90b8c4882b8022d54fa5fb, type: 3}
+    - {fileID: 21300000, guid: 8324977fd9b7fd6419ade0ff1172bc46, type: 3}
+    - {fileID: 21300000, guid: c2c4abf996ef0a7488e6643be2aaa42b, type: 3}
+    - {fileID: 21300000, guid: 6ae7a0224a48b2f4e88b8436f0331f2c, type: 3}
+    - {fileID: 21300000, guid: 1c3005423ad08724eac64ca8529a9868, type: 3}
+    - {fileID: 21300000, guid: 05e764ffe70fed84b8e270f4e8136e51, type: 3}
+    - {fileID: 21300000, guid: d18b039ca51cd2c489922a6b58667e8a, type: 3}
+    - {fileID: 21300000, guid: e79abc7d180bafe4bae959e740a14928, type: 3}
+    - {fileID: 21300000, guid: 3247614798531a04faad9f6125dad4da, type: 3}
+    - {fileID: 21300000, guid: f96e07c1895df2b49ab69fa7e99cba7d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5833333
+    m_StopTime: 0.75
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -84,8 +90,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.5833333
-    functionName: ballDisappearEvent
+  - time: 0.6666667
+    functionName: healEvent
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -28,12 +28,9 @@ public class BallMove : MonoBehaviour
         sound = gameObject.GetComponent<AudioSource>();
     }
 
-    private void Update()
+    private void ballDisappearEvent()
     {
-        if (ballDisappearAni.GetCurrentAnimatorStateInfo(0).length < ballDisappearAni.GetCurrentAnimatorStateInfo(0).normalizedTime)
-        {   
-            GameObject.Find("GameManager").GetComponent<Life>().minusLife(this.gameObject);
-        }
+        GameObject.Find("GameManager").GetComponent<Life>().minusLife(this.gameObject);
     }
 
     private void ShowAlert(string tagName, string message)
