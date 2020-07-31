@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - WallTrigger
+  - Stone
+  - Ice
+  - AlienIce
+  - ItemIce
+  - Brick
+  - Wall
+  - BombBall
+  - Trap
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ball
+  - Bar
+  - Brick
+  - Alien
+  - Item
+  - Wall
+  - BrickOnly
+  - Trap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4245755907
+    locked: 0
+  - name: Bar
+    uniqueID: 762442791
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
