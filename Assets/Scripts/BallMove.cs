@@ -58,7 +58,7 @@ public class BallMove : MonoBehaviour
         }
         if (collision.gameObject.tag == "Stone" && !Alerted.Things["Stone"])
         {
-            ShowAlert("Stone", "경고 메시지 예시!!");
+            //ShowAlert("Stone", "경고 메시지 예시!!");
         }
     }
 }

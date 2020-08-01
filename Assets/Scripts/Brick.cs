@@ -20,6 +20,11 @@ public class Brick : MonoBehaviour
 
         initialBrickLife = LevelData.stageBrickLife[GameManager.stageNum - 1];
         brickLife = initialBrickLife;
+        
+        if (gameObject.tag == "Ice" || gameObject.tag == "AlienIce" || gameObject.tag == "ItemIce" || gameObject.tag == "Trap")
+        {
+            brickLife = 1;
+        }
     }
 
     private void hitBrick()
@@ -30,7 +35,7 @@ public class Brick : MonoBehaviour
 
             if (brickLife > 0)
             {
-                if (this.gameObject.tag == "Brick")
+                if (this.gameObject.tag == "Stone")
                 {
                     isCracked = true;
                     transform.GetChild(0).GetComponent<StoneCrack>().Crack();   //금가는 이미지
@@ -39,13 +44,20 @@ public class Brick : MonoBehaviour
 
             else
             {
-                if (this.gameObject.tag == "Brick")
+                if (this.gameObject.tag == "Stone")
                 {
                     stoneDestroySound.Play();
                     Destroy(gameObject.GetComponent<BoxCollider2D>());
                     anim.SetTrigger("Destroyed");
                     Destroy(this.gameObject);
                 }
+
+                else if(this.gameObject.tag == "Ice")
+                {
+                    stoneDestroySound.Play();
+                    Destroy(this.gameObject);
+                }
+
                 if (this.gameObject.tag == "Trap")
                 {
                     Destroy(this.gameObject);

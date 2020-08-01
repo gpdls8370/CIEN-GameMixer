@@ -8,7 +8,7 @@ public class HealRange : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Brick")
+        if (collision.gameObject.tag == "Stone")
         {
             if (collision.GetComponent<Brick>().isCracked == true && collision.GetComponent<Brick>().isHealing == false)
             {
